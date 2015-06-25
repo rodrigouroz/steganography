@@ -1,5 +1,5 @@
 {
-  "name": "Steganography",
+  "name": "steganography",
   "version": "0.1.0",
   "description": "A tool to conceal files into images",
   "repository": {
