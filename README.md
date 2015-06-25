@@ -1,4 +1,4 @@
-# Overview
+# Overview [![Build Status](https://travis-ci.org/rodrigouroz/steganography.svg?branch=master)](https://travis-ci.org/rodrigouroz/steganography)
 
 Conceals any type of file into images.
 
