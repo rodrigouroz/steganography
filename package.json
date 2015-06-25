@@ -1,0 +1,32 @@
+{
+  "name": "Steganography",
+  "version": "0.1.0",
+  "description": "A tool to conceal files into images",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigouroz/steganography.git"
+  },
+  "dependencies": {
+    "lwip": "^0.0.7",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "license": "MIT",
+  "keywords": [
+    "steganography"
+  ],
+  "author": "Rodrigo Uroz <rodrigouroz@gmail.com>",
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/rodrigouroz/steganography/issues",
+    "email": "rodrigouroz@gmail.com"
+  },
+  "bin": {
+    "steganography": "main.js"
+  }
+}
