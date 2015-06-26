@@ -22,25 +22,35 @@ It has two different actions
 
 Embeds a file into a host image. Outputs the host file with the concealed file embedded as a new file
 
-`steganography embed <host_file> <guest_file> [<output_file>] [<password>]
-`
+`steganography embed <host_file> <guest_file> [<output_file>] [<password>]`
 
 By default <output_file> is 'output.png' in the same folder
 
 If password is used the data is encrypted with AES256. You'll need the password to retrieve the embedded file
 
+### Example
+
+`steganography embed host.jpg secret.pdf output secret-password`
+
+This will create the file output.png in the current folder. You can share this file with anyone.
+
+They will need the password to recover the embedded file.
+
 ## Dig up
 
 Retrieves a concealed file from an image.
 
-
-`steganography dig-up <image_file> [<output_folder>] [<password>]
-`
+`steganography dig-up <image_file> [<output_folder>] [<password>]`
 
 By default <output_folder> is the current folder.
+
+### Example
+
+`steganography dig-up output.png ./ secret-password`
 
 # TODO
 
 * Input file check
   * Must be in RGB format
   * It can be determined before starting whether the file fits or not
+  * Better command line support (named options such as --output=folder --password=pass)
