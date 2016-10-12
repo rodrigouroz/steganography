@@ -6,6 +6,8 @@ It uses a LSB algorithm. The idea comes from [http://domnit.org/blog/2007/02/ste
 
 # Instalation
 
+**Python is required**.
+
 This is aimed to be installed globally as a command line tool
 
 `
