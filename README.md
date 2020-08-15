@@ -4,6 +4,8 @@ Conceals any type of file into images.
 
 It uses a LSB algorithm. The idea comes from [http://domnit.org/blog/2007/02/stepic-explanation.html](http://domnit.org/blog/2007/02/stepic-explanation.html)
 
+Check a blog post with an example: https://rodrigouroz.github.io/2016/06/13/hiding-things-at-plain-sight/
+
 # Instalation
 
 **Python is required**.
