@@ -16,7 +16,7 @@ npm install -g steganography
 
 Or, clone this repository and run `npm install`
 
-This module depends on [lwip](https://github.com/EyalAr/lwip#installation), check setup instructions for your system if the installation fails
+This module depends on [lwip](https://github.com/mixer/lwip#installation), check setup instructions for your system if the installation fails
 
 # Quickstart
 

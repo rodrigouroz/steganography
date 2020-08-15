@@ -1,13 +1,13 @@
 {
   "name": "steganography",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A tool to conceal files into images",
   "repository": {
     "type": "git",
     "url": "https://github.com/rodrigouroz/steganography.git"
   },
   "dependencies": {
-    "lwip": "^0.0.9",
+    "@randy.tarampi/lwip": "^3.0.0",
     "q": "^1.4.1"
   },
   "devDependencies": {
